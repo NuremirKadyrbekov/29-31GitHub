@@ -1,0 +1,17 @@
+.todos {
+    min-width: 300px;
+    width: auto;
+    min-height: 50px;
+    height: auto;
+    background: cadetblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    border: 2px solid #000;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.elem {
+    text-decoration: line-through;
+}
